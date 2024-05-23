@@ -17,21 +17,21 @@ public class CarroJugador extends Carro {
     public void frenar(){
 
         //logica para frenar
-        System.out.printIn("Frenando...");
+        System.out.println("Frenando...");
 
     }
     
     public void disparar(){
 
         //logica  para disparar
-        System.out.printIn("Disparando...");
+        System.out.println("Disparando...");
 
     }
 
     public void actualizar(){
 
         //logica para actualizar el estado
-        System.out.printIn("Actualizado...");
+        System.out.println("Actualizado...");
         
     }
 
