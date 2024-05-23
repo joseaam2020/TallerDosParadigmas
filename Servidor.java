@@ -2,11 +2,14 @@ package TallerDosParadigmas;
 
 public class Servidor {
     
-    protected static Servidor instanciaServidor;
+    private static Servidor instanciaServidor;
     Cliente[] clientes;
 
     public Servidor getServidor(){
-        return Servidor.instanciaServidor;
+        if(instanciaServidor == null){
+            instanciaServidor = new Servidor();
+        }
+        return instanciaServidor;
     }
 
     public void actualizarCliente(int index,int id){
@@ -16,7 +19,7 @@ public class Servidor {
     public void actualizarPista(){}
 
     public void run(){
-        this.getServidor().run();
+        instanciaServidor.run();
     }
 
 }
