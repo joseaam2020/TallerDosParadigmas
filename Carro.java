@@ -22,11 +22,11 @@ public abstract class Carro {
         this.velocidad = velocidad;
 
     }
-    public string getColor(){
+    public String getColor(){
 
         return color;
     }
-    public void setColor(string color){
+    public void setColor(String color){
 
         this.color = color;
     }
