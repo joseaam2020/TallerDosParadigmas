@@ -1,7 +1,7 @@
 package TallerDosParadigmas;
 
 public class CarroJugador extends Carro {
-    public CarroJugador(int velocidad,string color){
+    public CarroJugador(int velocidad,String color){
         this.velocidad = velocidad;
         this.color = color;
     }
